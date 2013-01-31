@@ -10,7 +10,7 @@ var UpgradeMenu = enchant.Class.create(enchant.Group, {
         this.addChild(range_circle);
 
         sell = new Sprite(sprite_side, sprite_side);
-        sell.image = game.assets['enemies.png'];
+        sell.image = game.assets['assets/enemies.png'];
         sell.frame = 14;
         sell.addEventListener('touchend', function() {
             tower.sell();
@@ -25,7 +25,7 @@ var UpgradeMenu = enchant.Class.create(enchant.Group, {
 
             upgrade_button = new Sprite(sprite_side, sprite_side);
             upgrade_button.x = sprite_side * 2;
-            upgrade_button.image = game.assets['enemies.png'];
+            upgrade_button.image = game.assets['assets/enemies.png'];
             upgrade_button.frame = 43;
             upgrade_button.addEventListener('touchend', function() {
                 var upgrade = tower.type.upgrades[tower.upgrade];

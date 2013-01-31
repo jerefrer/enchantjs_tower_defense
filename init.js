@@ -51,8 +51,7 @@ var game = null;
 window.onload = function() {
     game = new Game(320, 320);
     game.fps = 15;
-    game.preload_path = 'assets/';
-    game.preload('enemies.png', 'map0.png', 'towers.png');
+    game.preload('assets/enemies.png', 'assets/map0.png', 'assets/towers.png');
 }
 
 // Include app files

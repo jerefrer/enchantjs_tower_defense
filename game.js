@@ -12,7 +12,7 @@ function run_game() {
             [4, 4, 4, 4, 4, 5, 4]
         ]
         map = new Map(sprite_side, sprite_side);
-        map.image = game.assets['map0.png'];
+        map.image = game.assets['assets/map0.png'];
         map.loadData(grid);
         var colMap = [
             [1, 1, 1, 1, 1, 1, 1],

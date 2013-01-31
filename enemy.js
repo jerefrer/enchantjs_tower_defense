@@ -7,7 +7,7 @@ var Enemy = enchant.Class.create(enchant.Group, {
         var sprite = new Sprite(sprite_side, sprite_side);            
         sprite.x = x;
         sprite.y = y;
-        sprite.image = game.assets['enemies.png'];
+        sprite.image = game.assets['assets/enemies.png'];
         sprite.frame = frame;
         this.addChild(sprite);
 

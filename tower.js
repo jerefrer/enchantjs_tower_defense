@@ -7,7 +7,7 @@ var Tower = enchant.Class.create(enchant.Sprite, {
         this.y = y;
         this.type = type;
         this.upgrade = upgrade;
-        this.image = game.assets['towers.png'];
+        this.image = game.assets['assets/towers.png'];
         this.frame = type.frame;
         game.rootScene.addChild(this);
         this.addEventListener('enterframe', function() {
